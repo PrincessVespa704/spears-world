@@ -30,7 +30,8 @@
     color: #0da0f5;
   }
   img {
-    border: 5px solid  ;
+    border: 5px solid;
+    color: #0491aa;
   }
    .header a.active {
     background-color: #39b1f7;
