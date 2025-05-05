@@ -4,14 +4,14 @@
     position:sticky;
     top: 0;
     text-align: center;
-    background: #39b1f7;
+    background: #0da0f5;
     color: white;
     font-size: 50px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
      }
 .header {
     overflow: hidden;
-    background-color: #80c9eb;
+    background-color: #0da0f5;
     padding: 20px 10px;
   }
   
@@ -27,10 +27,10 @@
   }
   .header a:hover {
     background-color: #c0e3ff;
-    color: black;
+    color: #0da0f5;
   }
   img {
-    border: 5px solid  #0491aa;
+    border: 5px solid  ;
   }
    .header a.active {
     background-color: #39b1f7;
@@ -55,9 +55,8 @@
     cursor: pointer;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #39b1f7;
+    background-color: #0da0f5;
   }
   
   /* Add a background color and some padding around the form */
@@ -67,6 +66,10 @@
     padding: 20px;
   }
 
-
-      
- 
+  footer {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    background-color:  #0da0f5;
+    color: white;
