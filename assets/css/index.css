@@ -27,6 +27,9 @@
     background-color: #c0e3ff;
     color: black;
   }
+  img {
+    border: 5px solid  #0491aa;
+  }
    .header a.active {
     background-color: #39b1f7;
     color: white;
