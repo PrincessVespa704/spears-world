@@ -7,7 +7,7 @@
     background: #0da0f5;
     color: white;
     font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      }
 .header {
     overflow: hidden;
@@ -29,9 +29,12 @@
     background-color: #c0e3ff;
     color: #0da0f5;
   }
+
+  .header {
     border: 5px solid;
-    color: #0491aa;
+    color: #ffffff;
   }
+
    .header a.active {
     background-color: #39b1f7;
     color: white;
@@ -44,8 +47,7 @@
     box-sizing: border-box; 
     margin-top: 6px; 
     margin-bottom: 16px; 
-    resize: vertical 
-  }
+    resize: vertical;  }
     input[type=submit] {
     background-color: #0491aa;
     color: white;
@@ -71,5 +73,6 @@
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     padding: 3px;
-    background-color:  #0da0f5;
+    background-color: #0da0f5;
     color: white;
+}
