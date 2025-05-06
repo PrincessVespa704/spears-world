@@ -1,80 +1,89 @@
+.header {
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  background: #0da0f5;
+  color: white;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+.header {
+  overflow: hidden;
+  background-color: #0da0f5;
+  padding: 20px 10px;
+}
+
+.title {
+  margin: 0;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: Right;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a:hover {
+  background-color: #c0e3ff;
+  color: #0da0f5;
+}
 
 .header {
-    padding: 20px;
-    position:sticky;
-    top: 0;
-    text-align: center;
-    background: #0da0f5;
-    color: white;
-    font-size: 50px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-     }
-.header {
-    overflow: hidden;
-    background-color: #0da0f5;
-    padding: 20px 10px;
-  }
-  
-  .header a {
-    float: left;
-    color: black;
-    text-align: Right;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 30px;
-    line-height: 25px;
-    border-radius: 4px;
-  }
-  .header a:hover {
-    background-color: #c0e3ff;
-    color: #0da0f5;
-  }
+  border: 5px solid;
+  color: #ffffff;
+}
 
-  .header {
-    border: 5px solid;
-    color: #ffffff;
-  }
+.header a.active {
+  background-color: #39b1f7;
+  color: white;
+  border: 3px solid transparent;
+  padding: 15px;
+}
 
-   .header a.active {
-    background-color: #39b1f7;
-    color: white;
-    border: 3px solid transparent;
-    padding: 15px;
-  }
-    input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;  }
-    input[type=submit] {
-    background-color: #0491aa;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #0da0f5;
-  }
-  
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: #c0e3ff;
-    padding: 20px;
-  }
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
 
-  footer {
-    display: block;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 3px;
-    background-color: #0da0f5;
-    color: white;
+input[type="submit"] {
+  background-color: #0491aa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0da0f5;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #c0e3ff;
+  padding: 20px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
+  background-color: #0da0f5;
+  color: white;
 }
