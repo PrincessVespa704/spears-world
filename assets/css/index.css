@@ -7,7 +7,7 @@
     background: #0da0f5;
     color: white;
     font-size: 50px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
      }
 .header {
     overflow: hidden;
@@ -38,6 +38,8 @@
    .header a.active {
     background-color: #39b1f7;
     color: white;
+    border: 3px solid transparent;
+    padding: 15px;
   }
     input[type=text], select, textarea {
     width: 100%; 
