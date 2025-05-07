@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Test File</title>
+    <title>Spearsworld</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
   </head>
   <body>
     <header>
-      <h1>Test Page</h1>
+      <h1>SPEARSWORLD</h1>
       <ul>
-        <li><a href="#putidhere">About Us</a></li>
-        <li><a href="#putidhere">Product Information</a></li>
-        <li><a href="#putidhere">Contact Us</a></li>
+        <a href="#whoweare">About Us</a>
+        <a href="#productinfo">Product Information</a>
+        <a href="#contactus">Contact Us</a>
       </ul>
     </header>
 
@@ -40,10 +40,26 @@
     <!-- TODO This is a todo -->
     <!-- This is a basic comment -->
     <section>
-        <h2>Contact Us</h2>
-        <form>
-            fill in the form crap i forget all of the syntax for the inputs
-        </form>
+   <h2>Contact Us</h2>
+   <h2 id="for-product-inquiries">For Information about our products, or to suggest products for us to carry, sign up today!</h2>
+        <Section class="container">
+         <form action="action_page.php">
+            <label for="name">First and Last Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="email">Email Address</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+            <label for="country">Country</label>
+                    <option value="unitedstates">United States of America</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                  </select>
+              
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="When will the Acme gear featuring Wile E. Coyote and Spearsworld be available.." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
     </section>
 
     <footer>
